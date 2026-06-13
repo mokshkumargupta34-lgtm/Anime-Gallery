@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Zen Kaku Gothic New", "Inter", system-ui, sans-serif;
+  --font-display: "Anton", "Trebuchet MS", sans-serif;
+  --font-mono: "Space Mono", "Courier New", monospace;
+}
+
+/* Custom design system classes for Awwwards-level Manga theme */
+.border-ink-4 {
+  border: 4px solid #121212;
+}
+
+.border-ink-2 {
+  border: 2px solid #121212;
+}
+
+.border-ink-1 {
+  border: 1.5px solid #121212;
+}
+
+.shadow-manga-flat {
+  box-shadow: 6px 6px 0px 0px #121212;
+}
+
+.shadow-manga-sm {
+  box-shadow: 3px 3px 0px 0px #121212;
+}
+
+.shadow-manga-lg {
+  box-shadow: 12px 12px 0px 0px #121212;
+}
+
+.bg-manga-paper {
+  background-color: #F4F1EA; /* Editorial Aesthetic warm cream paper */
+}
+
+/* Authentic screen tone / halftone generator */
+.bg-halftone-pattern {
+  background-image: radial-gradient(#121212 1.2px, transparent 1.2px);
+  background-size: 12px 12px;
+}
+
+.bg-halftone-dense {
+  background-image: radial-gradient(#121212 1.2px, transparent 1.2px);
+  background-size: 5px 5px;
+}
+
+.bg-manga-grid {
+  background-image: 
+    linear-gradient(rgba(18, 18, 18, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 18, 18, 0.02) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.manga-speedlines-v {
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 0.08) 0px,
+    rgba(18, 18, 18, 0.08) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+}
+
+.manga-speedlines-h {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 0.06) 0px,
+    rgba(18, 18, 18, 0.06) 1.5px,
+    transparent 1.5px,
+    transparent 14px
+  );
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+  border-left: 3px solid #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #121212;
+  border: 3px solid #F4F1EA;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E31B23; /* Editorial Aesthetic accent red */
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #121212; /* Off screen defaults to pitch black to frame the book */
+}
+
+body {
+  color: #121212;
+  overflow-x: hidden;
+}

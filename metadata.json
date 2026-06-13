@@ -1,0 +1,6 @@
+{
+  "name": "Anime Wall of Legends",
+  "description": "An immersive, premium scroll-driven portfolio and interactive card showcase of 16 legendary anime characters, featuring dynamic fly-in scroll animations, series filtering, character sorting, and custom stylized theme cards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
