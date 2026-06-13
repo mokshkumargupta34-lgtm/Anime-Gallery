@@ -112,10 +112,13 @@ export default function ScrollScrubHero({
           preload="auto"
           disablePictureInPicture
           className="absolute inset-0 h-full w-full object-cover"
+          // Punch up the color — the source reads dull, so boost saturation /
+          // brightness / contrast right in the browser (no re-encode needed).
+          style={{ filter: "saturate(1.4) brightness(1.12) contrast(1.06)" }}
         />
 
-        {/* Legibility veils */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/70" />
+        {/* Legibility veils — kept light so they don't dull the color */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/45" />
         <div className="pointer-events-none absolute inset-0 bg-halftone-pattern opacity-[0.08] mix-blend-overlay" />
 
         {/* Overlay chrome */}
