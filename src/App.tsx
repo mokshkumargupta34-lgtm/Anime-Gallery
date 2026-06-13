@@ -271,7 +271,7 @@ export default function App() {
                   
                   {/* Real static AI banner illustration we generated */}
                   <img
-                    src="/src/assets/images/hero_cover_1781360190273.jpg"
+                    src="/images/hero_cover_1781360190273.jpg"
                     alt="Manga Collage Legend"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover grayscale contrast-125 brightness-95 filter transition-all duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0"

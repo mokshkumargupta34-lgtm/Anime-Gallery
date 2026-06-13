@@ -15,7 +15,7 @@ export const CHARACTERS: Character[] = [
       technique: 94,
       popularity: 98,
     },
-    img: "/src/assets/images/goku_saiyan_1781362594916.jpg",
+    img: "/images/goku_saiyan_1781362594916.jpg",
     crestSymbol: "SAIYAN",
   },
   {
@@ -32,7 +32,7 @@ export const CHARACTERS: Character[] = [
       technique: 99,
       popularity: 99,
     },
-    img: "/src/assets/images/gojo_eyes_1781362614042.jpg",
+    img: "/images/gojo_eyes_1781362614042.jpg",
     crestSymbol: "LIMITLESS",
   },
   {
@@ -49,7 +49,7 @@ export const CHARACTERS: Character[] = [
       technique: 96,
       popularity: 97,
     },
-    img: "/src/assets/images/zoro_swords_1781362632986.jpg",
+    img: "/images/zoro_swords_1781362632986.jpg",
     crestSymbol: "DEMON",
   },
   {
@@ -66,7 +66,7 @@ export const CHARACTERS: Character[] = [
       technique: 94,
       popularity: 95,
     },
-    img: "/src/assets/images/lightning_rogue_1781360253853.jpg",
+    img: "/images/lightning_rogue_1781360253853.jpg",
     crestSymbol: "GODSPEED",
   },
   {
@@ -83,7 +83,7 @@ export const CHARACTERS: Character[] = [
       technique: 91,
       popularity: 98,
     },
-    img: "/src/assets/images/luffy_gear5_1781361743055.jpg",
+    img: "/images/luffy_gear5_1781361743055.jpg",
     crestSymbol: "LIBERTY",
   },
   {
@@ -100,7 +100,7 @@ export const CHARACTERS: Character[] = [
       technique: 92,
       popularity: 97,
     },
-    img: "/src/assets/images/naruto_hokage_1781361762442.jpg",
+    img: "/images/naruto_hokage_1781361762442.jpg",
     crestSymbol: "NINETAILS",
   },
   {
@@ -117,7 +117,7 @@ export const CHARACTERS: Character[] = [
       technique: 96,
       popularity: 93,
     },
-    img: "/src/assets/images/sasuke_rinnegan_1781361777419.jpg",
+    img: "/images/sasuke_rinnegan_1781361777419.jpg",
     crestSymbol: "SHARINGAN",
   },
   {
@@ -134,7 +134,7 @@ export const CHARACTERS: Character[] = [
       technique: 60,
       popularity: 94,
     },
-    img: "/src/assets/images/saitama_serious_1781361791789.jpg",
+    img: "/images/saitama_serious_1781361791789.jpg",
     crestSymbol: "BALD_CAPE",
   },
   {
@@ -151,7 +151,7 @@ export const CHARACTERS: Character[] = [
       technique: 93,
       popularity: 94,
     },
-    img: "/src/assets/images/tanjiro_sun_1781361810928.jpg",
+    img: "/images/tanjiro_sun_1781361810928.jpg",
     crestSymbol: "HINOKAMI",
   },
   {
@@ -168,7 +168,7 @@ export const CHARACTERS: Character[] = [
       technique: 97,
       popularity: 96,
     },
-    img: "/src/assets/images/levi_ackerman_1781361823645.jpg",
+    img: "/images/levi_ackerman_1781361823645.jpg",
     crestSymbol: "FREEDOM",
   },
   {
@@ -185,7 +185,7 @@ export const CHARACTERS: Character[] = [
       technique: 98,
       popularity: 95,
     },
-    img: "/src/assets/images/sukuna_curse_1781361837557.jpg",
+    img: "/images/sukuna_curse_1781361837557.jpg",
     crestSymbol: "SCHISM",
   },
   {
@@ -202,7 +202,7 @@ export const CHARACTERS: Character[] = [
       technique: 89,
       popularity: 92,
     },
-    img: "/src/assets/images/ichigo_bankai_1781361853625.jpg",
+    img: "/images/ichigo_bankai_1781361853625.jpg",
     crestSymbol: "BANKAI",
   },
   {
@@ -219,7 +219,7 @@ export const CHARACTERS: Character[] = [
       technique: 90,
       popularity: 91,
     },
-    img: "/src/assets/images/kaneki_ghoul_1781361871082.jpg",
+    img: "/images/kaneki_ghoul_1781361871082.jpg",
     crestSymbol: "CENTIPEDE",
   },
   {
@@ -236,7 +236,7 @@ export const CHARACTERS: Character[] = [
       technique: 96,
       popularity: 93,
     },
-    img: "/src/assets/images/edward_alchemist_1781361887558.jpg",
+    img: "/images/edward_alchemist_1781361887558.jpg",
     crestSymbol: "REDEMPTION",
   },
   {
@@ -253,7 +253,7 @@ export const CHARACTERS: Character[] = [
       technique: 99,
       popularity: 91,
     },
-    img: "/src/assets/images/light_kira_1781361903060.jpg",
+    img: "/images/light_kira_1781361903060.jpg",
     crestSymbol: "JUSTICE",
   },
   {
@@ -270,7 +270,7 @@ export const CHARACTERS: Character[] = [
       technique: 99,
       popularity: 93,
     },
-    img: "/src/assets/images/lelouch_geass_1781361919148.jpg",
+    img: "/images/lelouch_geass_1781361919148.jpg",
     crestSymbol: "REBELLION",
   },
 ];
